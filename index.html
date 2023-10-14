@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | News Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f5e428e9ac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <header class="header">
+            <a class="logo" target="_blank" href="https://twitter.com/CodePapa360">
+                <img src="https://news-homepage-alamin.netlify.app/logo.fa9b665c.svg" alt="Logo">
+            </a>
+            <div class="dark-mode-toggle">
+                <svg height="48" width="48" viewBox="0 96 960 960">
+                    <path d="M518 616Zm6 400H408l12-9.5q12-9.5 26.5-20.5t26.5-20.5l12-9.5h41q97 0 180.5-58T838 754q-90-8-173-41.5T518.5 616Q455 553 422 470.5T381 299q-88 48-144.5 130.5T180 612v11.5q0 6.5 1 11.5l-9.039 3.721q-9.039 3.72-19.961 7.779-10.922 4.059-19.961 7.779L123 658q-2-13-2.5-24t-.5-22q0-146 93-257.5T450 216q-18 98 11 192.635 29 94.635 100 165.736 71 71.101 165.5 100.143Q821 703.555 920 685.529q-26 144.206-138 237.338Q670 1016 524 1016Zm-284-60h180q33.333 0 56.667-23.265Q500 909.471 500 876.235 500 843 477.138 819.5T422 796h-39l-15-35q-17-39-51.688-62-34.687-23-76.312-23-57 0-98.5 41T100 816q0 58.333 40.833 99.167Q181.667 956 240 956Zm0 60q-83 0-141.5-58.5T40 816q0-83 58.5-141.5T240 616q60 0 109.5 32.5T423 736q57 2 97 42.5t40 97.5q0 58-41 99t-99 41H240Z"></path>
+                </svg>
+            </div>
+            <div class="btn-menu">
+                <img src="https://news-homepage-alamin.netlify.app/icon-menu.1a2e45b8.svg" alt="">
+            </div>
+            <div class="header__navbar">
+                <ul class="header__navbar-list header__navbar-list-desktop">
+                    <img src="https://news-homepage-alamin.netlify.app/icon-menu-close.42093a66.svg" alt="" class="btn-close">
+                    <li class="header__navbar-item">
+                        <a href="https://twitter.com/CodePapa360" class="header__navbar-item-link" target="_blank">Home</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="https://twitter.com/CodePapa360" class="header__navbar-item-link" target="_blank">New</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="https://twitter.com/CodePapa360" class="header__navbar-item-link" target="_blank">Popular</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="https://twitter.com/CodePapa360" class="header__navbar-item-link" target="_blank">Trending</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="https://twitter.com/CodePapa360" class="header__navbar-item-link" target="_blank">Categories</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="main-contents">
+            <div class="left-news">
+                <img src="./assets/img/image-web-3-desktop.jpg" alt="Left News Thumnail class" class="left-news__thumbnail left-news__thumbnail--desktop">
+                <img src="./assets/img/image-web-3-mobile.jpg" alt="Left News Thumnail class" class="left-news__thumbnail left-news__thumbnail--mobile">
+                <div class="left-news__contents">
+                    <h1 class="left-news__title">The Bright Future of Web 3.0?</h1>
+                    <div class="left-news__contents-desc">
+                        <p class="left-news__contents-desc-detail">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+                        <a href="https://twitter.com/CodePapa360" class="btn-read-more" target="_blank">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-news">
+                <span class="right-news__header">New</span>
+                <ul class="right-news__header-list">
+                    <li class="right-news__header-item">
+                        <a href="" class="right-news__header-item-link">
+                            <h2 class="right-news__header-title">Hydrogen VS Electric Cars</h2>
+                            <p class="right-news__header-desc">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                        </a>
+                    </li>
+                    <li class="right-news__header-item">
+                        <a href="" class="right-news__header-item-link">
+                            <h2 class="right-news__header-title">The Downsides of AI Artistry</h2>
+                            <p class="right-news__header-desc">What are the possible adverse effects of on-demand AI image generation?</p>
+                        </a>
+                    </li>
+                    <li class="right-news__header-item">
+                        <a href="" class="right-news__header-item-link">
+                            <h2 class="right-news__header-title">Is VC Funding Drying Up?</h2>
+                            <p class="right-news__header-desc">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-news">
+                <ul class="bottom-news-list">
+                    <li class="bottom-news-item">
+                        <a href="https://twitter.com/CodePapa360" target="_blank" class="bottom-news-item__link">
+                            <img src="./assets/img/image-retro-pcs.jpg" alt="" class="bottom-img-item__thumbnail">
+                            <div class="bottom-news-item__contents">
+                                <p class="bottom-news-item__count">01</p>
+                                <h2 class="bottom-news-item__title">Reviving Retro PCs</h2>
+                                <p class="bottom-news-item__decs">What happens when old PCs are given modern upgrades?</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="bottom-news-item">
+                        <a href="https://twitter.com/CodePapa360" target="_blank" class="bottom-news-item__link">
+                            <img src="./assets/img/image-top-laptops.jpg" alt="" class="bottom-img-item__thumbnail">
+                            <div class="bottom-news-item__contents">
+                                <p class="bottom-news-item__count">02</p>
+                                <h2 class="bottom-news-item__title">Top 10 Laptops of 2022</h2>
+                                <p class="bottom-news-item__decs">Our best picks for various needs and budgets.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="bottom-news-item">
+                        <a href="https://twitter.com/CodePapa360" target="_blank" class="bottom-news-item__link">
+                            <img src="./assets/img/image-gaming-growth.jpg" alt="" class="bottom-img-item__thumbnail">
+                            <div class="bottom-news-item__contents">
+                                <p class="bottom-news-item__count">03</p>
+                                <h2 class="bottom-news-item__title">The Growth of Gaming</h2>
+                                <p class="bottom-news-item__decs">How the pandemic has sparked fresh opportunities.</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
